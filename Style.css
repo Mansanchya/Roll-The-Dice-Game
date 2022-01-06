@@ -1,0 +1,152 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html, body
+{
+  font-size: 60%;
+}
+
+/* Styling to body tag */
+body
+{
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+/* Styling to main container class div where all elements are stuctured */
+.container
+{
+  font-family: 'Baloo Bhai', cursive;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  font-size: 2.5rem;
+  text-align: center;
+  background:url('img/Background.png') no-repeat center center/cover;
+  color:white;
+}
+
+/* Styling to game-header class div in which logo,speaker image and welcome massage are stored */
+.game-header 
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0em auto 1em auto;
+  font-size: 1em;
+  max-width: 1500;
+}
+
+/* Styling to info class div in which dice image and score and selected div are stored */
+.info 
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em auto 0em auto;
+  font-size: 1em;
+  max-width: 1500px;
+  border: 5px solid white;
+  border-radius: 50px;
+}
+
+/* Styling to information that display on the middle of the screen during the game */
+#h, .text-level-1, .text-level-2,.text-level-3
+{
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+}
+
+/* Styling to Buttons  */
+button 
+{
+  font-family: 'Baloo Bhai', cursive;
+  height: 3em;
+  width: 25%;
+  font-size: 1.2em;
+  margin: 0.3em;
+  border: 4px solid #07E1FF;
+  border-radius: 5%;
+  color: white;
+  background: #041245;
+  transition: .25s;
+  cursor: pointer;
+}
+
+/* Styling to Buttons while hovering */
+button:hover
+{
+  background: #07E1FF;
+  color: #041245;
+}
+
+/* Styling to buttons while they are disabled */
+.disabled
+{
+  background-color: red;
+  pointer-events: none;
+}
+
+/* Styling to number class div for buttons  */
+.number 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Styling to welcome massage and Loading... */
+h2{
+  background-color: black;
+  border: 5px solid white;
+  border-radius: .5em;
+  padding: 0em .2em;
+  
+}
+
+/* Styling to images of dice and gif  */
+.image-dice, .info img
+{
+  width: 25%;
+}
+
+/* Styling to images of logo and speaker  */
+#imgg, #image-music
+{
+  width: 100%;
+  height: 100%;
+  border: 5px solid white;
+  border-radius: 25px;
+}
+#image-music:hover{
+  cursor: pointer;
+}
+
+/* Styling to other classes*/
+.Left, .first, .image-music
+{
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+
+/* Styling to credits massage */
+.credits
+{
+  margin-top: 1em;
+  display: inline-block;
+  border: 5px solid white;
+  padding: 0px 10px;
+  border-radius: 25px;
+}
